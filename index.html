@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sua Página Web Moderna</title>
+    <title>Una Fast</title>
     <link rel="icon" type="image/x-icon" href="src/favicon/favicon_transparent_32x32.png">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <header>
         <nav>
             <img id="img-header" src="src/favicon/favicon_transparent_32x32.png" href="Logo"> 
-            <h2 id="h2-header" >Fast Work</h2>
+            <h2 id="h2-header" >Una Fast</h2>
             <ul id="ul-header">
                 <li class="li-header"><a class="a-header" href="#Inicio">Home</a></li>
                 <li class="li-header"><a class="a-header" href="#Sobre-nos">Sobre-nos</a></li>
@@ -24,9 +24,12 @@
 
     <section id="home">
         <div id="div-home">
-            <h1 class="h1-home">Trazendo a você <br> os melhores serviços</h1>
+            <h1 class="h1-home">Trazendo à você <br> os melhores serviços</h1>
             <h1 class="h1-homee">Garantindo sua satisfação</h1>
             <span id="span-home">os melhores profissionais você encontra aqui.</span>
+        </div>
+        <div id="div-home-vetor">
+            <img src="" alt="">
         </div>
     </section>
 
@@ -36,29 +39,13 @@
         </p>
         <a class="a-footer">Kawã.Rodrigues</a>
           e
-          <a class="a-footer">Arthur.Dias</a>
+        <a class="a-footer">Arthur.Dias</a>
           fale conosco
         <p>
          Fast Work ajuda online
         </p>
-      </footer>
-
-    <script>
-        // Função para rolagem suave ao clicar nos links do menu
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-
-                window.scrollTo({
-                    top: targetElement.offsetTop - 50, // Ajuste o valor para a altura do cabeçalho
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-
+    </footer>
 </body>
 </html>
+
+
