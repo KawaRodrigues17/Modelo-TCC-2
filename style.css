@@ -31,16 +31,16 @@
 }
 
 body {
-    background-image: linear-gradient( to right, #0a8967, #0c4f6a, #06324b, #00152b);
+    background-image: linear-gradient( to right, #0a8967, #0c4f6a, #03243b);
 
 }
 
 header {
     top: 0;
-    padding: 15px 80px;
-    width: 90%;
-    border-bottom: 1px;
-    margin-top: 35px;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    width: 100%;
     opacity: 0.91;
     background-color: transparent;
 }
@@ -55,34 +55,34 @@ nav {
 #img-header {
     text-decoration: none;
     outline: none;
+    padding-left: 80px;
+    border-radius: 35px;
 }
 
 #h2-header {
     font-family: var(--fonte-destaque);
     color: var(--corp);
-    padding-right: 60vw;
+    padding-right: 500px;
 }
 
 #ul-header {
     text-align: right;
-    border-bottom: 5px;
+    padding-right: 80px;
 }
 
 .li-header {
     display: inline-block;
-    position: flex;
-    margin-right: 15px;
-    font-size: 1.06rem;
+    padding-right: 50px;
 }
 
 .a-header {
     color: var(--corp);
     border-radius: 5.45px;
-    transition-duration: 1.0;
+    transition-duration: 1.5;
     text-decoration: none;
 }
 
-a:hover {
+.a-header :hover {
     text-decoration: wavy;
     color: var(--cor9);
 }
@@ -91,16 +91,21 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-#div-home {
+#div-central-home {
+    display: inline-block;
+    
+}
+
+#div-conteudo-home {
     margin-top: 200px;
-    margin-left: 85px; 
+    margin-left: 80px; 
     height: 100vh;   
 }
 
 .h1-home {
     font-weight: bold;
     font-size: 60px;
-    color: var(--corp);
+    color: var(--corp); 
 }
 
 .h1-homee {
@@ -115,6 +120,10 @@ a:hover {
     font-weight: bold;
     font-size: 20px;
     color: var(--cor9);
+}
+
+#img-home {
+    text-decoration: none;
 }
 
 /* Estilo para o rodapé */
